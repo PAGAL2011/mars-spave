@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    transition: 300ms all;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.538);
+}
+
+
+header {
+    border-bottom: 2px solid #00000021;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.dark-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Light-button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.icon:hover {
+    fill: blue;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_wrapper {
+    width: 650px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+.ibo-jimot{
+   text-align: center;
+   font-size: 42px;        
+}
+.botton-header{
+    margin-left: 650px;
+    display: flex;
+    gap: 35px;
+    font-size: 350px;
+    background-color: rgb(194, 194, 194);
+    margin-top: 15px;
+    width: 220px;
+    height: 45px;
+    border: 8px solid  rgb(194, 194, 194);
+    border-radius: 20px;
+    
+}
+.tepa-modul{
+    background-color:  #FAFAFA;
+    width: 220px;
+    margin-top: 25px;
+    height: 40px;
+    top: 607px;
+    left: 459px;
+    border-radius: 20px;
+    border-width: 1px;
+    margin-left:  655px;
+    padding: 10px; 
+
+}
+.pas-modul{
+    background-color:  #FAFAFA;
+    width: 220px;
+    margin-top: 15px;
+    height: 40px;
+    top: 607px;
+    left: 459px;
+    border-radius: 20px;
+    border-width: 1px;
+    margin-left:  655px;
+    padding: 10px; 
+
+}
+.text{
+    text-align: center;
+    margin-top: 15px;
+}
+.bnt{
+    width: 173;
+height: 34;
+top: 885px;
+left: 808px;
+font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 29.05px;
+letter-spacing: 0%;
+margin-left: 830px;
+margin-top: 25px;
+background-color: rgb(159, 40, 40);
+}
